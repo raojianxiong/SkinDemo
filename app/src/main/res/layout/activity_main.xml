@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:text="Hello World!"
+        android:onClick="onChange"
+  />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:text="Restore !"
+        android:onClick="restore"
+        />
+</LinearLayout>
